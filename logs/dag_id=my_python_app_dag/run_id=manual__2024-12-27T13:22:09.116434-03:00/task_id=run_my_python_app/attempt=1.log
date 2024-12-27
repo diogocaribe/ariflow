@@ -1,0 +1,19 @@
+[2024-12-27T13:22:09.880-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-27T13:22:09.912-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_python_app_dag.run_my_python_app manual__2024-12-27T13:22:09.116434-03:00 [queued]>
+[2024-12-27T13:22:09.925-0300] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_python_app_dag.run_my_python_app manual__2024-12-27T13:22:09.116434-03:00 [queued]>
+[2024-12-27T13:22:09.925-0300] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-12-27T13:22:09.943-0300] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): run_my_python_app> on 2024-12-27 13:22:09.116434-03:00
+[2024-12-27T13:22:09.962-0300] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3822) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-27T13:22:09.963-0300] {standard_task_runner.py:72} INFO - Started process 3823 to run task
+[2024-12-27T13:22:09.961-0300] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'my_python_app_dag', 'run_my_python_app', 'manual__2024-12-27T13:22:09.116434-03:00', '--job-id', '339', '--raw', '--subdir', 'DAGS_FOLDER/dag_my-python-app.py', '--cfg-path', '/tmp/tmppgg4pkl_']
+[2024-12-27T13:22:09.966-0300] {standard_task_runner.py:105} INFO - Job 339: Subtask run_my_python_app
+[2024-12-27T13:22:10.056-0300] {task_command.py:467} INFO - Running <TaskInstance: my_python_app_dag.run_my_python_app manual__2024-12-27T13:22:09.116434-03:00 [running]> on host f657cc3f60f7
+[2024-12-27T13:22:10.228-0300] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='my_python_app_dag' AIRFLOW_CTX_TASK_ID='run_my_python_app' AIRFLOW_CTX_EXECUTION_DATE='2024-12-27T13:22:09.116434-03:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-27T13:22:09.116434-03:00'
+[2024-12-27T13:22:10.229-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-27T13:22:10.287-0300] {docker.py:379} INFO - Starting docker container from image my-python-app:latest
+[2024-12-27T13:22:10.712-0300] {docker.py:73} INFO - ISSO AQUI É A APLICAÇÃO RODANDO!!!!!!!!!.
+[2024-12-27T13:22:11.049-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-27T13:22:11.050-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=my_python_app_dag, task_id=run_my_python_app, run_id=manual__2024-12-27T13:22:09.116434-03:00, execution_date=20241227T132209, start_date=20241227T132209, end_date=20241227T132211
+[2024-12-27T13:22:11.101-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-27T13:22:11.144-0300] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-27T13:22:11.146-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

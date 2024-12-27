@@ -1,0 +1,20 @@
+[2024-12-26T17:50:19.592+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-26T17:50:19.633+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_python_app_dag.run_my_python_app scheduled__2024-12-25T00:00:00+00:00 [queued]>
+[2024-12-26T17:50:19.647+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_python_app_dag.run_my_python_app scheduled__2024-12-25T00:00:00+00:00 [queued]>
+[2024-12-26T17:50:19.648+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2024-12-26T17:50:19.665+0000] {taskinstance.py:2889} INFO - Executing <Task(DockerOperator): run_my_python_app> on 2024-12-25 00:00:00+00:00
+[2024-12-26T17:50:19.680+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3168) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-26T17:50:19.681+0000] {standard_task_runner.py:72} INFO - Started process 3169 to run task
+[2024-12-26T17:50:19.684+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'my_python_app_dag', 'run_my_python_app', 'scheduled__2024-12-25T00:00:00+00:00', '--job-id', '530', '--raw', '--subdir', 'DAGS_FOLDER/dag_my-python-app.py', '--cfg-path', '/tmp/tmp_ntb6iuk']
+[2024-12-26T17:50:19.689+0000] {standard_task_runner.py:105} INFO - Job 530: Subtask run_my_python_app
+[2024-12-26T17:50:19.786+0000] {task_command.py:467} INFO - Running <TaskInstance: my_python_app_dag.run_my_python_app scheduled__2024-12-25T00:00:00+00:00 [running]> on host 1484ae97611b
+[2024-12-26T17:50:19.937+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='my_python_app_dag' AIRFLOW_CTX_TASK_ID='run_my_python_app' AIRFLOW_CTX_EXECUTION_DATE='2024-12-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-25T00:00:00+00:00'
+[2024-12-26T17:50:19.938+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-26T17:50:19.994+0000] {docker.py:379} INFO - Starting docker container from image my-python-app:latest
+[2024-12-26T17:50:20.000+0000] {docker.py:387} WARNING - Using remote engine or docker-in-docker and mounting temporary volume from host is not supported. Falling back to `mount_tmp_dir=False` mode. You can set `mount_tmp_dir` parameter to False to disable mounting and remove the warning
+[2024-12-26T17:50:20.394+0000] {docker.py:73} INFO - ISSO AQUI É A APLICAÇÃO RODANDO!!!!!!!!!1.
+[2024-12-26T17:50:20.698+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-26T17:50:20.699+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=my_python_app_dag, task_id=run_my_python_app, run_id=scheduled__2024-12-25T00:00:00+00:00, execution_date=20241225T000000, start_date=20241226T175019, end_date=20241226T175020
+[2024-12-26T17:50:20.739+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-26T17:50:20.778+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-26T17:50:20.780+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

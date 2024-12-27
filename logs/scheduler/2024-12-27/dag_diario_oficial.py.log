@@ -1,0 +1,666 @@
+[2024-12-27T13:49:39.029-0300] {processor.py:186} INFO - Started process (PID=4718) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:49:39.030-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:49:39.034-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:49:39.033-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:49:39.048-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:49:39.212-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:49:39.212-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:49:39.242-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:49:39.242-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:49:39.261-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.246 seconds
+[2024-12-27T13:50:01.239-0300] {processor.py:186} INFO - Started process (PID=4739) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:50:01.240-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:50:01.245-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:50:01.244-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:50:01.261-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:50:01.280-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:50:01.280-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:50:01.314-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:50:01.314-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:50:01.335-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.112 seconds
+[2024-12-27T13:50:31.795-0300] {processor.py:186} INFO - Started process (PID=4760) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:50:31.796-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:50:31.799-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:50:31.799-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:50:31.812-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:50:31.828-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:50:31.828-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:50:31.860-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:50:31.860-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:50:31.878-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.098 seconds
+[2024-12-27T13:51:02.271-0300] {processor.py:186} INFO - Started process (PID=4781) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:51:02.272-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:51:02.275-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:51:02.275-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:51:02.290-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:51:02.418-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:51:02.418-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:51:02.443-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:51:02.443-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:51:02.460-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.205 seconds
+[2024-12-27T13:51:32.716-0300] {processor.py:186} INFO - Started process (PID=4802) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:51:32.733-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:51:32.737-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:51:32.737-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:51:32.755-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:51:32.804-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:51:32.804-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:51:32.837-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:51:32.836-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:51:32.854-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.151 seconds
+[2024-12-27T13:52:03.166-0300] {processor.py:186} INFO - Started process (PID=4823) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:52:03.168-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:52:03.171-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:52:03.170-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:52:03.185-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:52:03.205-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:52:03.205-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:52:03.239-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:52:03.239-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:52:03.256-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.104 seconds
+[2024-12-27T13:52:20.454-0300] {processor.py:186} INFO - Started process (PID=4839) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:52:20.467-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:52:20.473-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:52:20.472-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:52:20.494-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:52:20.518-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:52:20.517-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:52:20.564-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:52:20.564-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:52:20.585-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.146 seconds
+[2024-12-27T13:52:50.929-0300] {processor.py:186} INFO - Started process (PID=4860) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:52:50.930-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:52:50.934-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:52:50.934-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:52:50.948-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:52:51.099-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:52:51.099-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:52:51.125-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:52:51.125-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:52:51.142-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.227 seconds
+[2024-12-27T13:53:21.411-0300] {processor.py:186} INFO - Started process (PID=4881) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:53:21.414-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:53:21.417-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:53:21.416-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:53:21.431-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:53:21.482-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:53:21.481-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:53:21.513-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:53:21.513-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:53:21.530-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.135 seconds
+[2024-12-27T13:53:51.946-0300] {processor.py:186} INFO - Started process (PID=4902) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:53:51.947-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:53:51.951-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:53:51.950-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:53:51.966-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:53:51.987-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:53:51.986-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:53:52.031-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:53:52.031-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:53:52.050-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.120 seconds
+[2024-12-27T13:54:22.349-0300] {processor.py:186} INFO - Started process (PID=4924) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:54:22.365-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:54:22.370-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:54:22.370-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:54:22.391-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:54:22.527-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:54:22.527-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:54:22.552-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:54:22.552-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:54:22.569-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.232 seconds
+[2024-12-27T13:54:52.898-0300] {processor.py:186} INFO - Started process (PID=4945) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:54:52.899-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:54:52.903-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:54:52.902-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:54:52.915-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:54:52.963-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:54:52.963-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:54:52.994-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:54:52.994-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:54:53.012-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.127 seconds
+[2024-12-27T13:55:23.300-0300] {processor.py:186} INFO - Started process (PID=4966) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:55:23.310-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:55:23.317-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:55:23.316-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:55:23.338-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:55:23.358-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:55:23.357-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:55:23.393-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:55:23.393-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:55:23.411-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.123 seconds
+[2024-12-27T13:55:53.723-0300] {processor.py:186} INFO - Started process (PID=4987) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:55:53.724-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:55:53.728-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:55:53.727-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:55:53.742-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:55:53.896-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:55:53.895-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:55:53.922-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:55:53.922-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:55:53.939-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.232 seconds
+[2024-12-27T13:56:24.239-0300] {processor.py:186} INFO - Started process (PID=5008) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:56:24.241-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:56:24.244-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:56:24.243-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:56:24.257-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:56:24.291-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:56:24.291-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:56:24.320-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:56:24.320-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:56:24.338-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.114 seconds
+[2024-12-27T13:56:54.653-0300] {processor.py:186} INFO - Started process (PID=5029) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:56:54.654-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:56:54.658-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:56:54.657-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:56:54.673-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:56:54.699-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:56:54.698-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:56:54.748-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:56:54.748-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:56:54.768-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.129 seconds
+[2024-12-27T13:57:07.926-0300] {processor.py:186} INFO - Started process (PID=5039) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:57:07.927-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:57:07.930-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:57:07.930-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:57:07.944-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:57:08.063-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:57:08.063-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:57:08.087-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:57:08.087-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:57:08.105-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.193 seconds
+[2024-12-27T13:57:38.435-0300] {processor.py:186} INFO - Started process (PID=5060) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:57:38.436-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:57:38.440-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:57:38.439-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:57:38.456-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:57:38.505-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:57:38.505-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:57:38.537-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:57:38.537-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:57:38.554-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.135 seconds
+[2024-12-27T13:58:08.904-0300] {processor.py:186} INFO - Started process (PID=5081) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:58:08.905-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:58:08.910-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:58:08.909-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:58:08.924-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:58:08.947-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:58:08.946-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:58:08.977-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:58:08.977-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:58:08.994-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.106 seconds
+[2024-12-27T13:58:39.320-0300] {processor.py:186} INFO - Started process (PID=5102) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:58:39.321-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:58:39.325-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:58:39.325-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:58:39.341-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:58:39.468-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:58:39.468-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:58:39.495-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:58:39.495-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:58:39.512-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.210 seconds
+[2024-12-27T13:59:09.840-0300] {processor.py:186} INFO - Started process (PID=5123) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:59:09.841-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:59:09.844-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:59:09.843-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:59:09.857-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:59:09.902-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:59:09.901-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:59:09.932-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:59:09.932-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:59:09.948-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.123 seconds
+[2024-12-27T13:59:40.291-0300] {processor.py:186} INFO - Started process (PID=5144) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:59:40.293-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T13:59:40.296-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:59:40.295-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:59:40.309-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T13:59:40.326-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:59:40.325-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T13:59:40.368-0300] {logging_mixin.py:190} INFO - [2024-12-27T13:59:40.368-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T13:59:40.385-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.106 seconds
+[2024-12-27T14:00:10.707-0300] {processor.py:186} INFO - Started process (PID=5165) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:00:10.709-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:00:10.712-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:00:10.712-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:00:10.726-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:00:10.870-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:00:10.870-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:00:10.896-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:00:10.896-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:00:10.914-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.220 seconds
+[2024-12-27T14:00:41.254-0300] {processor.py:186} INFO - Started process (PID=5186) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:00:41.256-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:00:41.259-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:00:41.259-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:00:41.281-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:00:41.334-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:00:41.334-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:00:41.366-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:00:41.366-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:00:41.385-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.147 seconds
+[2024-12-27T14:01:11.763-0300] {processor.py:186} INFO - Started process (PID=5207) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:01:11.765-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:01:11.769-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:01:11.768-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:01:11.782-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:01:11.806-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:01:11.805-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:01:11.852-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:01:11.852-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:01:11.874-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.124 seconds
+[2024-12-27T14:01:42.280-0300] {processor.py:186} INFO - Started process (PID=5228) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:01:42.281-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:01:42.284-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:01:42.284-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:01:42.297-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:01:42.443-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:01:42.443-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:01:42.469-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:01:42.469-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:01:42.490-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.226 seconds
+[2024-12-27T14:02:12.725-0300] {processor.py:186} INFO - Started process (PID=5249) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:02:12.726-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:02:12.729-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:02:12.729-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:02:12.744-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:02:12.793-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:02:12.793-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:02:12.826-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:02:12.826-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:02:12.845-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.135 seconds
+[2024-12-27T14:02:43.144-0300] {processor.py:186} INFO - Started process (PID=5270) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:02:43.145-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:02:43.148-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:02:43.148-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:02:43.162-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:02:43.185-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:02:43.185-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:02:43.230-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:02:43.229-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:02:43.249-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.116 seconds
+[2024-12-27T14:03:13.503-0300] {processor.py:186} INFO - Started process (PID=5291) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:03:13.504-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:03:13.508-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:03:13.507-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:03:13.522-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:03:13.672-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:03:13.671-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:03:13.697-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:03:13.697-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:03:13.716-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.227 seconds
+[2024-12-27T14:03:43.911-0300] {processor.py:186} INFO - Started process (PID=5312) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:03:43.912-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:03:43.915-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:03:43.915-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:03:43.928-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:03:43.961-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:03:43.961-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:03:43.989-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:03:43.988-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:03:44.013-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.114 seconds
+[2024-12-27T14:04:14.325-0300] {processor.py:186} INFO - Started process (PID=5333) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:04:14.327-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:04:14.330-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:04:14.330-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:04:14.345-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:04:14.363-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:04:14.363-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:04:14.396-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:04:14.396-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:04:14.415-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.104 seconds
+[2024-12-27T14:04:44.757-0300] {processor.py:186} INFO - Started process (PID=5354) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:04:44.758-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:04:44.761-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:04:44.761-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:04:44.776-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:04:44.910-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:04:44.910-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:04:44.936-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:04:44.936-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:04:44.953-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.213 seconds
+[2024-12-27T14:05:15.272-0300] {processor.py:186} INFO - Started process (PID=5375) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:05:15.273-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:05:15.276-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:05:15.276-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:05:15.291-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:05:15.342-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:05:15.342-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:05:15.378-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:05:15.378-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:05:15.406-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.149 seconds
+[2024-12-27T14:05:45.772-0300] {processor.py:186} INFO - Started process (PID=5396) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:05:45.774-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:05:45.777-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:05:45.777-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:05:45.791-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:05:45.808-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:05:45.808-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:05:45.852-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:05:45.852-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:05:45.870-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.112 seconds
+[2024-12-27T14:06:16.191-0300] {processor.py:186} INFO - Started process (PID=5417) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:06:16.193-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:06:16.196-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:06:16.195-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:06:16.210-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:06:16.360-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:06:16.359-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:06:16.385-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:06:16.385-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:06:16.403-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.226 seconds
+[2024-12-27T14:06:46.723-0300] {processor.py:186} INFO - Started process (PID=5438) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:06:46.724-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:06:46.728-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:06:46.728-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:06:46.742-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:06:46.792-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:06:46.792-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:06:46.825-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:06:46.824-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:06:46.842-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.133 seconds
+[2024-12-27T14:07:17.228-0300] {processor.py:186} INFO - Started process (PID=5459) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:07:17.229-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:07:17.234-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:07:17.233-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:07:17.248-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:07:17.267-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:07:17.266-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:07:17.304-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:07:17.304-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:07:17.323-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.111 seconds
+[2024-12-27T14:07:47.639-0300] {processor.py:186} INFO - Started process (PID=5480) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:07:47.640-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:07:47.643-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:07:47.643-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:07:47.657-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:07:47.804-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:07:47.804-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:07:47.830-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:07:47.829-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:07:47.847-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.223 seconds
+[2024-12-27T14:08:18.153-0300] {processor.py:186} INFO - Started process (PID=5501) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:08:18.155-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:08:18.158-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:08:18.157-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:08:18.171-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:08:18.220-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:08:18.220-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:08:18.253-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:08:18.252-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:08:18.270-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.131 seconds
+[2024-12-27T14:08:48.643-0300] {processor.py:186} INFO - Started process (PID=5522) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:08:48.645-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:08:48.648-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:08:48.648-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:08:48.663-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:08:48.681-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:08:48.681-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:08:48.716-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:08:48.715-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:08:48.733-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.105 seconds
+[2024-12-27T14:09:19.037-0300] {processor.py:186} INFO - Started process (PID=5543) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:09:19.039-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:09:19.043-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:09:19.042-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:09:19.058-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:09:19.204-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:09:19.203-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:09:19.229-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:09:19.229-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:09:19.253-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.232 seconds
+[2024-12-27T14:09:49.570-0300] {processor.py:186} INFO - Started process (PID=5564) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:09:49.572-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:09:49.576-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:09:49.576-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:09:49.590-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:09:49.626-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:09:49.626-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:09:49.655-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:09:49.655-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:09:49.672-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.116 seconds
+[2024-12-27T14:10:20.060-0300] {processor.py:186} INFO - Started process (PID=5585) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:10:20.061-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:10:20.064-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:10:20.064-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:10:20.076-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:10:20.092-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:10:20.092-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:10:20.123-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:10:20.123-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:10:20.140-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.092 seconds
+[2024-12-27T14:10:50.440-0300] {processor.py:186} INFO - Started process (PID=5607) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:10:50.442-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:10:50.445-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:10:50.445-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:10:50.459-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:10:50.606-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:10:50.606-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:10:50.632-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:10:50.632-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:10:50.649-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.224 seconds
+[2024-12-27T14:11:20.968-0300] {processor.py:186} INFO - Started process (PID=5628) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:11:20.969-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:11:20.972-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:11:20.972-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:11:20.987-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:11:21.037-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:11:21.037-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:11:21.071-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:11:21.071-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:11:21.095-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.141 seconds
+[2024-12-27T14:11:51.457-0300] {processor.py:186} INFO - Started process (PID=5649) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:11:51.458-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:11:51.462-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:11:51.461-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:11:51.475-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:11:51.492-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:11:51.492-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:11:51.525-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:11:51.525-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:11:51.543-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.100 seconds
+[2024-12-27T14:12:21.865-0300] {processor.py:186} INFO - Started process (PID=5676) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:12:21.866-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:12:21.871-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:12:21.870-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:12:21.885-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:12:22.015-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:12:22.015-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:12:22.042-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:12:22.041-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:12:22.059-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.208 seconds
+[2024-12-27T14:12:52.367-0300] {processor.py:186} INFO - Started process (PID=5697) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:12:52.369-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:12:52.373-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:12:52.372-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:12:52.387-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:12:52.435-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:12:52.435-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:12:52.479-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:12:52.479-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:12:52.500-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.148 seconds
+[2024-12-27T14:13:22.873-0300] {processor.py:186} INFO - Started process (PID=5718) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:13:22.874-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:13:22.877-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:13:22.877-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:13:22.891-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:13:22.915-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:13:22.914-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:13:22.959-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:13:22.959-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:13:22.986-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.128 seconds
+[2024-12-27T14:13:53.303-0300] {processor.py:186} INFO - Started process (PID=5739) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:13:53.322-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:13:53.327-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:13:53.326-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:13:53.349-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:13:53.480-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:13:53.480-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:13:53.505-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:13:53.505-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:13:53.521-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.234 seconds
+[2024-12-27T14:14:23.844-0300] {processor.py:186} INFO - Started process (PID=5760) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:14:23.845-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:14:23.849-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:14:23.848-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:14:23.864-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:14:23.906-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:14:23.906-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:14:23.936-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:14:23.936-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:14:23.953-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.123 seconds
+[2024-12-27T14:14:54.373-0300] {processor.py:186} INFO - Started process (PID=5781) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:14:54.374-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:14:54.379-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:14:54.378-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:14:54.394-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:14:54.418-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:14:54.417-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:14:54.462-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:14:54.462-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:14:54.483-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.124 seconds
+[2024-12-27T14:15:24.890-0300] {processor.py:186} INFO - Started process (PID=5802) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:15:24.891-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:15:24.896-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:15:24.895-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:15:24.908-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:15:25.053-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:15:25.052-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:15:25.095-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:15:25.094-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:15:25.113-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.239 seconds
+[2024-12-27T14:15:55.187-0300] {processor.py:186} INFO - Started process (PID=5823) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:15:55.206-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:15:55.212-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:15:55.211-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:15:55.234-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:15:55.286-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:15:55.286-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:15:55.318-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:15:55.318-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:15:55.348-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.175 seconds
+[2024-12-27T14:16:25.674-0300] {processor.py:186} INFO - Started process (PID=5844) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:16:25.675-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:16:25.678-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:16:25.677-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:16:25.691-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:16:25.710-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:16:25.710-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:16:25.745-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:16:25.745-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:16:25.762-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.103 seconds
+[2024-12-27T14:16:56.071-0300] {processor.py:186} INFO - Started process (PID=5865) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:16:56.072-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:16:56.075-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:16:56.075-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:16:56.088-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:16:56.210-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:16:56.210-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:16:56.235-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:16:56.235-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:16:56.252-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.195 seconds
+[2024-12-27T14:17:26.559-0300] {processor.py:186} INFO - Started process (PID=5886) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:17:26.560-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:17:26.563-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:17:26.562-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:17:26.576-0300] {processor.py:925} INFO - DAG(s) 'my_python_app_dag' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:17:26.633-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:17:26.633-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:17:26.679-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:17:26.679-0300] {dag.py:4180} INFO - Setting next_dagrun for my_python_app_dag to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:17:26.701-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.153 seconds
+[2024-12-27T14:19:42.480-0300] {processor.py:186} INFO - Started process (PID=5960) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:19:42.481-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:19:42.483-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.482-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:19:42.498-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:19:42.629-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.627-0300] {override.py:1911} INFO - Created Permission View: can read on DAG:diario_oficial
+[2024-12-27T14:19:42.637-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.637-0300] {override.py:1911} INFO - Created Permission View: can edit on DAG:diario_oficial
+[2024-12-27T14:19:42.643-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.643-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG:diario_oficial
+[2024-12-27T14:19:42.650-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.649-0300] {override.py:1911} INFO - Created Permission View: can read on DAG Run:diario_oficial
+[2024-12-27T14:19:42.657-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.656-0300] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:diario_oficial
+[2024-12-27T14:19:42.668-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.668-0300] {override.py:1911} INFO - Created Permission View: can create on DAG Run:diario_oficial
+[2024-12-27T14:19:42.680-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.680-0300] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:diario_oficial
+[2024-12-27T14:19:42.681-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.681-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:19:42.704-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.703-0300] {dag.py:3262} INFO - Creating ORM DAG for diario_oficial
+[2024-12-27T14:19:42.717-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:19:42.717-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-26 00:00:00-03:00, run_after=2024-12-27 00:00:00-03:00
+[2024-12-27T14:19:42.738-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.272 seconds
+[2024-12-27T14:20:12.883-0300] {processor.py:186} INFO - Started process (PID=5981) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:20:12.884-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:20:12.885-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:20:12.885-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:20:12.900-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:20:12.951-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:20:12.950-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:20:12.983-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:20:12.983-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-26 00:00:00-03:00, run_after=2024-12-27 00:00:00-03:00
+[2024-12-27T14:20:13.002-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.133 seconds
+[2024-12-27T14:20:42.305-0300] {processor.py:186} INFO - Started process (PID=6002) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:20:42.307-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:20:42.309-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:20:42.308-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:20:42.323-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:20:42.474-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:20:42.473-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:20:42.500-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:20:42.500-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-26 00:00:00-03:00, run_after=2024-12-27 00:00:00-03:00
+[2024-12-27T14:20:42.518-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.226 seconds
+[2024-12-27T14:21:12.776-0300] {processor.py:186} INFO - Started process (PID=6023) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:21:12.778-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:21:12.781-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:21:12.780-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:21:12.798-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:21:12.849-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:21:12.848-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:21:12.883-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:21:12.883-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-26 00:00:00-03:00, run_after=2024-12-27 00:00:00-03:00
+[2024-12-27T14:21:12.913-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.150 seconds
+[2024-12-27T14:21:43.214-0300] {processor.py:186} INFO - Started process (PID=6050) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:21:43.216-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:21:43.217-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:21:43.217-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:21:43.230-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:21:43.265-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:21:43.265-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:21:43.295-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:21:43.295-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:21:43.312-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.112 seconds
+[2024-12-27T14:22:07.628-0300] {processor.py:186} INFO - Started process (PID=6071) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:22:07.630-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:22:07.632-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:22:07.631-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:22:07.646-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:22:07.774-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:22:07.774-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:22:07.799-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:22:07.799-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:22:07.817-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.203 seconds
+[2024-12-27T14:22:33.059-0300] {processor.py:186} INFO - Started process (PID=6095) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:22:33.061-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:22:33.062-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:22:33.062-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:22:33.079-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:22:33.096-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:22:33.096-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:22:33.131-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:22:33.131-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:22:33.150-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.103 seconds
+[2024-12-27T14:23:03.566-0300] {processor.py:186} INFO - Started process (PID=6119) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:23:03.567-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:23:03.569-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:23:03.569-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:23:03.584-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:23:03.745-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:23:03.745-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:23:03.778-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:23:03.778-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:23:03.799-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.247 seconds
+[2024-12-27T14:23:33.987-0300] {processor.py:186} INFO - Started process (PID=6140) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:23:33.998-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:23:33.999-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:23:33.999-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:23:34.017-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:23:34.064-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:23:34.064-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:23:34.096-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:23:34.095-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:23:34.112-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.141 seconds
+[2024-12-27T14:24:04.452-0300] {processor.py:186} INFO - Started process (PID=6161) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:24:04.453-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:24:04.455-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:24:04.454-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:24:04.468-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:24:04.502-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:24:04.502-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:24:04.532-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:24:04.532-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:24:04.549-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.108 seconds
+[2024-12-27T14:24:34.809-0300] {processor.py:186} INFO - Started process (PID=6182) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:24:34.810-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:24:34.812-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:24:34.812-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:24:34.826-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:24:34.861-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:24:34.861-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:24:34.892-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:24:34.891-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:24:34.908-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.114 seconds
+[2024-12-27T14:25:05.357-0300] {processor.py:186} INFO - Started process (PID=6203) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:25:05.358-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:25:05.360-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:25:05.359-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:25:05.374-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:25:05.407-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:25:05.407-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:25:05.437-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:25:05.437-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:25:05.453-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.109 seconds
+[2024-12-27T14:25:35.797-0300] {processor.py:186} INFO - Started process (PID=6224) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:25:35.799-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:25:35.801-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:25:35.801-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:25:35.815-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:25:35.867-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:25:35.866-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:25:35.902-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:25:35.901-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:25:35.934-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.151 seconds
+[2024-12-27T14:26:06.276-0300] {processor.py:186} INFO - Started process (PID=6245) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:26:06.277-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:26:06.278-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:26:06.278-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:26:06.291-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:26:06.333-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:26:06.333-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:26:06.364-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:26:06.364-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:26:06.383-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.119 seconds
+[2024-12-27T14:26:36.784-0300] {processor.py:186} INFO - Started process (PID=6272) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:26:36.800-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:26:36.802-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:26:36.802-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:26:36.824-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:26:36.875-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:26:36.874-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:26:36.911-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:26:36.910-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:26:36.930-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.161 seconds
+[2024-12-27T14:27:07.278-0300] {processor.py:186} INFO - Started process (PID=6293) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:27:07.279-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:27:07.280-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:27:07.280-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:27:07.294-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:27:07.335-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:27:07.335-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:27:07.367-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:27:07.367-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:27:07.384-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.119 seconds
+[2024-12-27T14:27:37.754-0300] {processor.py:186} INFO - Started process (PID=6317) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:27:37.755-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:27:37.757-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:27:37.756-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:27:37.774-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:27:37.823-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:27:37.823-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:27:37.855-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:27:37.855-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:27:37.873-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.131 seconds
+[2024-12-27T14:28:08.191-0300] {processor.py:186} INFO - Started process (PID=6341) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:28:08.192-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:28:08.194-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:28:08.194-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:28:08.210-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:28:08.253-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:28:08.252-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:28:08.285-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:28:08.285-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:28:08.311-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.133 seconds
+[2024-12-27T14:28:38.681-0300] {processor.py:186} INFO - Started process (PID=6362) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:28:38.736-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:28:38.740-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:28:38.740-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:28:38.763-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:28:38.811-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:28:38.811-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:28:38.843-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:28:38.843-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:28:38.863-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.196 seconds
+[2024-12-27T14:29:09.204-0300] {processor.py:186} INFO - Started process (PID=6383) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:29:09.205-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:29:09.206-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:29:09.206-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:29:09.220-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:29:09.270-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:29:09.270-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:29:09.304-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:29:09.303-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:29:09.321-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.132 seconds
+[2024-12-27T14:29:39.714-0300] {processor.py:186} INFO - Started process (PID=6404) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:29:39.716-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:29:39.718-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:29:39.717-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:29:39.734-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:29:39.771-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:29:39.771-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:29:39.802-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:29:39.802-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:29:39.820-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.122 seconds
+[2024-12-27T14:30:10.207-0300] {processor.py:186} INFO - Started process (PID=6425) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:30:10.208-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:30:10.210-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:30:10.210-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:30:10.225-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:30:10.271-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:30:10.271-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:30:10.304-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:30:10.304-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:30:10.321-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.128 seconds
+[2024-12-27T14:30:40.685-0300] {processor.py:186} INFO - Started process (PID=6446) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:30:40.687-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:30:40.690-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:30:40.689-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:30:40.705-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:30:40.740-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:30:40.740-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:30:40.771-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:30:40.770-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:30:40.787-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.118 seconds
+[2024-12-27T14:31:11.183-0300] {processor.py:186} INFO - Started process (PID=6467) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:31:11.184-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:31:11.185-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:31:11.185-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:31:11.199-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:31:11.238-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:31:11.238-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:31:11.267-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:31:11.267-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:31:11.283-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.116 seconds
+[2024-12-27T14:31:41.697-0300] {processor.py:186} INFO - Started process (PID=6488) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:31:41.709-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:31:41.712-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:31:41.711-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:31:41.736-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:31:41.784-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:31:41.783-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:31:41.814-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:31:41.814-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:31:41.836-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.156 seconds
+[2024-12-27T14:32:12.188-0300] {processor.py:186} INFO - Started process (PID=6509) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:32:12.190-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:32:12.192-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:32:12.191-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:32:12.208-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:32:12.257-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:32:12.256-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:32:12.288-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:32:12.288-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:32:12.305-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.133 seconds
+[2024-12-27T14:32:42.673-0300] {processor.py:186} INFO - Started process (PID=6530) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:32:42.674-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:32:42.676-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:32:42.676-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:32:42.693-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:32:42.740-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:32:42.740-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:32:42.772-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:32:42.772-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:32:42.789-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.133 seconds
+[2024-12-27T14:33:13.109-0300] {processor.py:186} INFO - Started process (PID=6551) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:33:13.111-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:33:13.113-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:33:13.112-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:33:13.129-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:33:13.180-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:33:13.180-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:33:13.212-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:33:13.212-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:33:13.229-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.136 seconds
+[2024-12-27T14:33:43.589-0300] {processor.py:186} INFO - Started process (PID=6572) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:33:43.590-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:33:43.593-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:33:43.592-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:33:43.608-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:33:43.657-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:33:43.657-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:33:43.689-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:33:43.689-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:33:43.706-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.133 seconds
+[2024-12-27T14:34:14.081-0300] {processor.py:186} INFO - Started process (PID=6593) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:34:14.082-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:34:14.084-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:34:14.083-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:34:14.099-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:34:14.135-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:34:14.134-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:34:14.165-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:34:14.165-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:34:14.182-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.118 seconds
+[2024-12-27T14:34:44.546-0300] {processor.py:186} INFO - Started process (PID=6614) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:34:44.548-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:34:44.549-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:34:44.549-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:34:44.564-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:34:44.598-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:34:44.597-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:34:44.628-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:34:44.627-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:34:44.643-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.113 seconds
+[2024-12-27T14:35:14.988-0300] {processor.py:186} INFO - Started process (PID=6635) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:35:14.990-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:35:14.991-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:35:14.991-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:35:15.008-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:35:15.055-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:35:15.054-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:35:15.090-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:35:15.090-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:35:15.108-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.136 seconds
+[2024-12-27T14:35:45.533-0300] {processor.py:186} INFO - Started process (PID=6656) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:35:45.545-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:35:45.546-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:35:45.546-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:35:45.568-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:35:45.617-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:35:45.616-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:35:45.648-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:35:45.648-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:35:45.666-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.149 seconds
+[2024-12-27T14:36:15.983-0300] {processor.py:186} INFO - Started process (PID=6677) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:36:15.984-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:36:15.987-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:36:15.986-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:36:16.002-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:36:16.038-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:36:16.037-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:36:16.069-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:36:16.069-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:36:16.085-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.119 seconds
+[2024-12-27T14:36:46.475-0300] {processor.py:186} INFO - Started process (PID=6698) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:36:46.488-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:36:46.490-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:36:46.490-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:36:46.506-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:36:46.558-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:36:46.557-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:36:46.594-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:36:46.594-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:36:46.612-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.146 seconds
+[2024-12-27T14:37:16.930-0300] {processor.py:186} INFO - Started process (PID=6719) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:37:16.931-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:37:16.933-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:37:16.933-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:37:16.949-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:37:16.999-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:37:16.998-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:37:17.033-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:37:17.033-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:37:17.050-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.137 seconds
+[2024-12-27T14:37:47.456-0300] {processor.py:186} INFO - Started process (PID=6740) to work on /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:37:47.466-0300] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_diario_oficial.py for tasks to queue
+[2024-12-27T14:37:47.470-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:37:47.469-0300] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:37:47.496-0300] {processor.py:925} INFO - DAG(s) 'diario_oficial' retrieved from /opt/airflow/dags/dag_diario_oficial.py
+[2024-12-27T14:37:47.532-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:37:47.532-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-27T14:37:47.564-0300] {logging_mixin.py:190} INFO - [2024-12-27T14:37:47.564-0300] {dag.py:4180} INFO - Setting next_dagrun for diario_oficial to 2024-12-27 00:00:00-03:00, run_after=2024-12-28 00:00:00-03:00
+[2024-12-27T14:37:47.587-0300] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_diario_oficial.py took 0.143 seconds
