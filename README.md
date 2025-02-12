@@ -49,8 +49,16 @@ docker compose up -d
 ```
 
 ### Defina as permissões no host do socket do Docker
+# Essa 
 ```bash
 sudo chmod 666 /var/run/docker.sock
+```
+
+### Configurando as permissões na reinicialização do sistema
+Essas permissões permitem que o airflow execute o docker
+```bash
+sudo crontab -e
+@reboot chmod 666 /var/run/docker.sock
 ```
 
 ## Acessando o Airflow
