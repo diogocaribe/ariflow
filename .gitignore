@@ -1,0 +1,70 @@
+# Log files and directories
+logs/
+*.log
+airflow-webserver.log.*
+scheduler.log.*
+
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+eggs/
+.eggs/
+wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+MANIFEST
+
+# Unit test / coverage reports
+.tox/
+nosetests.xml
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+# Airflow specific files
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+webserver_config.py
+logs/
+*.log
+
+# Python/IDE files
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# DAG example files (optional)
+# airflow/example_dags/
+
+# Local configuration
+unittests.cfg
