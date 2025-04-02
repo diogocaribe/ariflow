@@ -7,7 +7,7 @@ from airflow.operators.dummy import DummyOperator
 default_args = {
     "owner": "airflow",
     "depends_on_past": False,  # Para não depender de execuções passadas
-    "start_date": datetime(2024, 1, 1),
+    "start_date": datetime(2016, 1, 1),
     "email_on_failure": False,
     "email_on_retry": False,
     "retries": 1,
@@ -20,7 +20,6 @@ dag = DAG(
     schedule_interval="@daily",  # Alterado de '@daily' para None
     catchup=True,  # Executar para datas passadas
     max_active_runs=8,  # Adicionado para controlar execuções simultâneas
-    depends_on_past=False,
     tags=["docker", "diario_oficial"],
 )
 
