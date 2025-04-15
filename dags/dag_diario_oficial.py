@@ -19,7 +19,7 @@ dag = DAG(
     description="DAG to run diario_oficial in Docker",
     schedule_interval="@daily",  # Alterado de '@daily' para None
     catchup=True,  # Executar para datas passadas
-    max_active_runs=8,  # Adicionado para controlar execuções simultâneas
+    max_active_runs=3,  # Adicionado para controlar execuções simultâneas
     tags=["docker", "diario_oficial"],
 )
 
