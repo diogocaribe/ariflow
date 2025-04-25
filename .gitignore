@@ -1,3 +1,4 @@
+output/
 # Log files and directories
 logs/
 *.log
