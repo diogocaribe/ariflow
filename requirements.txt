@@ -1,2 +1,3 @@
 docker
 apache-airflow-providers-docker
+apache-airflow-providers-ssh==4.1.0
