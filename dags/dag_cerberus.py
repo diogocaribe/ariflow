@@ -1,19 +1,67 @@
 from datetime import datetime
+from pathlib import Path
 from airflow import DAG
-from airflow.operators.python import PythonVirtualenvOperator
+from airflow.models import Variable
+from airflow.operators.python import PythonVirtualenvOperator, PythonOperator
 
 
+def get_variable_db_login():
+    password = Variable.get("CERBERUS_PASSWORD", default_var=None)
+    print(f"Retrieved password: {password}")
+    return password
+
+def manage_csv_files():
+    """
+    Manages CSV files by creating new ones and cleaning up old ones
+    
+    Args:
+        base_dir: Base directory for files
+        prefix: Prefix for new file name (usually date)
+        file_pattern: Pattern to match old files for cleanup
+    
+    Returns:
+        Path: Path object for the new file
+    """
+        
+    # Clean up old files
+    today = datetime.now().strftime("%Y%m%d")
+    # Create base dir if it doesn't exist
+    output_dir = Path('/opt/airflow/output/difis')
+
+    # Check old files
+    for file in output_dir.glob('*_difis_cerberus_tramitacao_processos.csv'):
+        print(f"Checking file: {file}")
+        file_date = file.name[:8]  # Extract date from filename (YYYYMMDD)
+        if file_date != today:  # Keep only today's files
+            try:
+                if file.is_file():
+                    print(f"Deleting old file: {file}")
+                    file.unlink()  # Remove the file
+            except FileNotFoundError:
+                print(f"File not found: {file}")
+            except Exception as e:
+                print(f"Error deleting file {file}: {e}")
+        else:
+            print(f"Keeping file: {file}")
 
 def execute_query_and_save():
+    from airflow.models import Variable
     import pymssql
     import pandas as pd
     from datetime import datetime
 
-    conn = pymssql.connect(host='172.16.0.14:1433\sql2012', user='adm.dados', password='Inema2025', charset='UTF-8', database='CERBERUS_2002', tds_version='7.0')
+    password = Variable.get("CERBERUS_PASSWORD", default_var=None)
+
+    conn = pymssql.connect(host='172.16.0.14:1433\sql2012', 
+                           user='adm.dados', 
+                           password=password, 
+                           charset='UTF-8', 
+                           database='CERBERUS_2002', 
+                           tds_version='7.0')
     cursor = conn.cursor()
     print("Connection successful")
     cursor.execute("""
-        WITH area_destino AS (
+       WITH area_destino AS (
         SELECT
             mp.processo_id,
             mp.area_usuario_destino_id,
@@ -78,14 +126,19 @@ def execute_query_and_save():
             p.numero,
             mp2.data_hora,
             st.status_processo,
-            u.nome,
-            mp2.area_usuario_destino_id,
-            a.sigla
+            u2.nome AS [nome_realizador_inicio],
+            mp2.area_usuario_inicio_id,
+            a2.sigla AS[sigla_inicio],
+            u.nome AS[nome_destino],
+            a.sigla AS [sigla_destino],
+            mp2.area_usuario_destino_id
         FROM MOVIMENTO_PROCESSO mp2
         LEFT JOIN usuario u ON u.usuario_id = mp2.usuario_destino_id
+        LEFT JOIN usuario u2 ON u2.usuario_id = mp2.usuario_inicio_id 
         LEFT JOIN status_processo st ON mp2.status_processo_id = st.status_processo_id
         LEFT JOIN processo p ON p.processo_id = mp2.processo_id
         LEFT JOIN area a ON a.area_id = mp2.area_usuario_destino_id
+        LEFT JOIN area a2 ON a2.area_id = mp2.area_usuario_inicio_id 
         WHERE mp2.fim_da_fila = 1 AND mp2.excluido <> 1
     ),
     ranked_processo_cliente AS ( -- busca informação atualizada da relação dos dados do cliente com o processo (tabela processo_cliente), para buscar o municipio do cliente de forma correta
@@ -116,9 +169,11 @@ def execute_query_and_save():
         a.sigla,
         u.nome AS [Responsável inicial na Área],
         ust.data_hora AS [Data do Status Atual],
+        ust.nome_realizador_inicio AS [Realizador Status Atual],
+        ust.sigla_inicio AS [Area Realizador Status Atual],
         ust.status_processo AS [Status Atual],
-        ust.nome AS [Responsável Atual],
-        ust.sigla AS [Área Responsável Atual],
+        ust.nome_destino AS [Responsável Atual],
+        ust.sigla_destino AS [Área Responsável Atual],
         mds.min_saiu_data_hora AS [Data de Distribuição para fora da Área],
         m3.municipio AS [Municipio do Cliente],
         m3.uf_id AS [UF do Cliente]
@@ -187,12 +242,24 @@ dag = DAG(
     schedule_interval='0 0 * * *'  # Executa todo dia à meia-noite (cron expression)
 )
 
-hello_task = PythonVirtualenvOperator(
+# Test the Variable 
+get_variable_db_login = PythonOperator(
+    task_id='get_variable_db_login',
+    python_callable=get_variable_db_login,
+    dag=dag
+)
+
+run_query_and_save = PythonVirtualenvOperator(
     task_id='difis_cerberus_query_tramitacao_processos',
     python_callable=execute_query_and_save,
-    requirements=['pandas','pymssql'],
+    requirements=['pandas','pymssql==2.3.4'],
     system_site_packages=True, # <-- habilita acesso aos pacotes já instalados no sistema
+    use_dill=True,
     dag=dag,
 )
 
-hello_task
+run_delete_csv_files = PythonOperator(
+    task_id='delete_csv_files',
+    python_callable=manage_csv_files)
+
+get_variable_db_login >> run_query_and_save >> run_delete_csv_files
