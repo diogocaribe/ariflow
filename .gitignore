@@ -29,7 +29,7 @@ nosetests.xml
 # Jupyter Notebook
 .ipynb_checkpoints
 # Airflow specific files
-airflow.cfg
+# airflow.cfg
 airflow.db
 airflow-webserver.pid
 webserver_config.py
