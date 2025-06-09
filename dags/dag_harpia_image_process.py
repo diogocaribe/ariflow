@@ -41,8 +41,10 @@ run_sentinel_img_process = SSHOperator(
     task_id='run_sentinel_img_process',
     command=sentinel_img_process,
     ssh_conn_id='pacatuba',
-    cmd_timeout=600,
-    conn_timeout=600,
+    cmd_timeout=3600,
+    conn_timeout=3600,
+    get_pty=True,
+    environment={'TERM': 'xterm'},
     dag=dag)
 
 

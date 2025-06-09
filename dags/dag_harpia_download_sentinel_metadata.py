@@ -42,8 +42,10 @@ run_download_metadata = SSHOperator(
     task_id='run_download_metadata',
     command=download_metadata,
     ssh_conn_id='pacatuba',
-    cmd_timeout=600,
-    conn_timeout=600,
+    cmd_timeout=3600,
+    conn_timeout=3600,
+    get_pty=True,
+    environment={'TERM': 'xterm'},
     dag=dag)
 
 
