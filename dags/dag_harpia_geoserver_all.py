@@ -19,7 +19,7 @@ default_args = {
 }
 
 dag = DAG(
-    'geoserver_sentinel_layer',
+    'geoserver_sentinel_layer_all',
     default_args=default_args,
     schedule=None,
     catchup=False,
