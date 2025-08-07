@@ -218,7 +218,7 @@ def execute_query_and_save():
     # Optional: Save to CSV
     today = datetime.now().strftime("%Y%m%d_%H%M%S")
     file_name = f"{today}_difis_cerberus_tramitacao_processos.csv"
-    df.to_csv(f'/opt/airflow/output/difis/{file_name}', index=False)
+    df.to_csv(f'/opt/airflow/output/difis/{file_name}', index=False, sep=';')
     print(f"Data saved to {file_name}")
     # Close connections
     cursor.close()
