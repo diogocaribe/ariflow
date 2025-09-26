@@ -15,7 +15,7 @@ from datetime import datetime
 
 # Configurações padrão do DAG
 default_args = {
-    "owner": "data_engineer",
+    "owner": "diogo.sousa",
     "depends_on_past": False,
     "start_date": datetime(datetime.now().year, 1, 1),
     "email_on_failure": False,

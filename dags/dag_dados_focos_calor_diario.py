@@ -16,7 +16,7 @@ from pathlib import Path
 
 # Configurações padrão do DAG
 default_args = {
-    "owner": "data_engineer",
+    "owner": "diogo.sousa",
     "depends_on_past": False,
     "start_date": datetime(datetime.now().year, datetime.now().month, 1),
     "email_on_failure": False,
