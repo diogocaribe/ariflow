@@ -40,7 +40,7 @@ BASE_URL = (
     "https://dataserver-coids.inpe.br/queimadas/queimadas/focos/csv/mensal/Brasil/"
 )
 DATA_DIR = "/tmp/queimadas_data"
-POSTGRES_CONN_ID = "focos_calor"  # Configure sua conexão no Airflow
+POSTGRES_CONN_ID = "foco_calor"  # Configure sua conexão no Airflow
 TABLE_NAME = "foco_calor"
 ESTADO = "BAHIA"  # Estado a ser filtrado, em caixa alta
 
