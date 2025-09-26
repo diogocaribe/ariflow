@@ -329,7 +329,7 @@ create_table_task = PostgresOperator(
             municipio VARCHAR(100),
             bioma VARCHAR(50),
             geom GEOMETRY(Point, 4326),
-            CONSTRAINT unique_lat_long_data_satelite UNIQUE (lat, lon, data, satelite)
+            CONSTRAINT unique_lat_long_data_satelite UNIQUE (lat, lon, data)
         );
         
         CREATE INDEX IF NOT EXISTS idx_focos_calor_data_hora ON {TABLE_NAME}(data);
